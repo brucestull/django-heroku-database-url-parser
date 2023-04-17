@@ -4,7 +4,6 @@ Python function to parse Heroku-provided `DATABASE_URL`.
 
 * URL to be parsed:
   * `postgres://DATABASE_USER:DATABASE_PASSWORD@DATABASE_HOST:DATABASE_PORT/DATABASE_NAME`
-  * `postgres://aaaaaaaaaaaaaa:a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1@aa1-11-111-11-111.aaaaaaa-1.amazonaws.com:1111/a1a1a1a1a1a1a1`
     * It is not ensured that the sub-string values will be alpha or numeric.
 
 * Delimiters:
