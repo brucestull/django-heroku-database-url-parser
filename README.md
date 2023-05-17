@@ -13,6 +13,20 @@ Python function to parse Heroku-provided `DATABASE_URL`.
   * `:`
   * `/`
 
+## Run Tests from Terminal
+
+* `python -m unittest test`
+
+    ```powershell
+    PS C:\Users\FlynntKnapp\Programming\heroku-database-url-parser> python -m unittest test
+    .
+    ----------------------------------------------------------------------
+    Ran 1 test in 0.000s
+
+    OK
+    PS C:\Users\FlynntKnapp\Programming\heroku-database-url-parser>
+    ```
+
 ## GitHub Copilot Suggestions
 
 ```python

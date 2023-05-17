@@ -46,4 +46,8 @@ def get_database_config_variables(url):
         'DATABASE_NAME': name
     }
 
-print(get_database_config_variables(the_test_url))
+def main():
+    print(get_database_config_variables(the_test_url))
+
+if __name__ == '__main__':
+    main()
